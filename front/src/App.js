@@ -1,23 +1,21 @@
 import React, { Component } from 'react';
-import './CSS/App.css';
 import NavBarMaterial from "./Components/Navbar";
 import Routing from "./Components/Routing";
 import FooterBar from "./Components/Footer";
-
-
-
-
-
-
+import SUBoutton from './Components/ScrollUpButton';
+import './CSS/App.css';
 
 class App extends Component {
   render() {
     return (
-      <div className="feu">
+      <div>
         <div >
           <NavBarMaterial />
           <Routing />
           <FooterBar />
+        </div>
+        <div >
+          <SUBoutton />
         </div>
       </div >
     );

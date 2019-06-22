@@ -2,7 +2,7 @@ import React from "react";
 import { makeStyles } from "@material-ui/core/styles";
 import AppBar from "@material-ui/core/AppBar";
 import Typography from "@material-ui/core/Typography";
-import { red } from "@material-ui/core/colors";
+import { teal } from "@material-ui/core/colors";
 import "../CSS/Navbar.css";
 import "../CSS/Footer.css";
 import { Box } from "@material-ui/core";
@@ -26,7 +26,7 @@ export default function FooterBar() {
     <div className="boxFooterAlign">
       <div id={"FOOTER"}>
         <div className={classes.root}>
-          <AppBar position="static" style={{ backgroundColor: red[900] }}>
+          <AppBar position="static" variant="h3" style={{ backgroundColor: teal[900] }}>
             <Box >
               <Typography>
                 <strong className="textCenter">

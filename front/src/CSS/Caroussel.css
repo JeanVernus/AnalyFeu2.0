@@ -1,3 +1,23 @@
-.slide{
-  
+.displayImg {
+  border-radius: 50%;
+  width: 800px;
+  height: 500px;
+  padding: 1em;
+  background-color: teal
+}
+
+.image-container {
+  display: flex;
+  justify-content: center;
+}
+
+.each-fade h2 {
+  text-align: center;
+  color: teal;
+ 
+}
+
+.fade {
+  margin-left: 5em;
+  margin-right: 5em;
 }

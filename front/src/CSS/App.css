@@ -6,13 +6,6 @@ html {
 body {
   width: 100%;
   height: 100%;
-  background: rgb(15, 15, 15);
-  color: white;
-}
-
-.feu {
-  background: url(https://www.gif-maniac.com/gifs/55/54504.gif);
-  background-size: cover;
 }
 
 .slide {
@@ -34,8 +27,8 @@ body {
   padding: 10em;
 }
 
-.chevron {
-  margin-bottom: 15em;
-  border: 1px solid #B61C1B;
-  border-radius: 50%
+.ScrollUpButton__Container{
+ margin-bottom: 2em;
+ border: 4px teal solid;
+ color: teal
 }
