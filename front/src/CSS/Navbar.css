@@ -1,18 +1,28 @@
+@import url('https://fonts.googleapis.com/css?family=Bree+Serif&display=swap');
+.paddingBar {}
+
 a {
+    color: white
+}
+
+a.title {
     color: white;
+    font-size: 40px;
+    font-family: 'Bree Serif';
 }
 
 .LINK_HOVER1:hover {
-    -webkit-text-stroke: 0.5px;
+    -webkit-text-stroke: 1px;
     -webkit-text-stroke-color: white;
-    color: orangered;
-    font-weight: bolder
+    color: teal;
+    font-weight: bolder;
+    font-family: 'Bree Serif';
 }
 
 .LINK_HOVER2:hover {
     -webkit-text-stroke: 0.5px;
     -webkit-text-stroke-color: white;
-    color: orangered;
-    font-size: 50px;
-    font-weight: bolder
+    color: teal;
+    font-weight: bolder;
+    font-family: 'Bree Serif';
 }

@@ -9,7 +9,6 @@ import "../CSS/Navbar.css";
 
 const useStyles = makeStyles(theme => ({
   root: {
-    flexGrow: 1
   },
   menuButton: {
     marginRight: theme.spacing(1)
@@ -23,12 +22,12 @@ export default function NavBarMaterial() {
   const classes = useStyles();
 
   return (
-    <div className={classes.root}>
+    <div className="paddingBar">
       <AppBar position="static" style={{ backgroundColor: teal[900] }}>
         <Toolbar>
-          <Typography variant="h1" className={classes.title}>
-            <a href={"/"} className={"LINK_HOVER1"} color={"inherit"}>
-              AnalyFeu
+          <Typography  className={classes.title}>
+            <a href={"/"} className={"LINK_HOVER1 title"} color={"inherit"}>
+              ANALYFEU
             </a>
           </Typography>
           <Button className={"LINK_HOVER2"} href={"/bureauSSI"} color="inherit">

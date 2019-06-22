@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Bree+Serif&display=swap');
+
 html {
   width: 100%;
   height: 100%
@@ -31,4 +33,19 @@ body {
  margin-bottom: 2em;
  border: 4px teal solid;
  color: teal
+}
+
+h1{
+  font-family: 'Bree Serif';
+}
+h2{
+  font-family: 'Bree Serif';
+}h3{
+  font-family: 'Bree Serif';
+}h4{
+  font-family: 'Bree Serif';
+}h4{
+  font-family: 'Bree Serif';
+}h6{
+  font-family: 'Bree Serif';
 }

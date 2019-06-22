@@ -97,9 +97,9 @@ class Home extends Component {
                         </div>
                     </div>
                 </div>
-                <h1 className="titlePrez" >------------ANALYFEU: Expertise et conseils pour vous!------------</h1><br /><br /><br />
+                <h1 className="titlePrez" >----------------ANALYFEU: Expertise et conseils pour vous!----------------</h1><br /><br /><br />
                 <Caroussel /><br /><br />
-                <h1 className="titlePrez" >------------ANALYFEU: Notre philosophie------------</h1><br /><br /><br />
+                <h1 className="titlePrez" >------------------------ANALYFEU: Notre philosophie------------------------</h1><br /><br /><br />
                 <dvi>
                     <figure>
                         <img src={imageEnd} alt="" />
