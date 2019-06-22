@@ -102,7 +102,7 @@ class Home extends Component {
                 <h1 className="titlePrez" >------------------------ANALYFEU: Notre philosophie------------------------</h1><br /><br /><br />
                 <dvi>
                     <figure>
-                        <img src={imageEnd} alt="" />
+                        <img className="imgCaption"src={imageEnd} alt="" />
                         <figcaption>
                             <h2>
                                 L’incendie et les accidents professionnels sont des sujets très préoccupants et d’actualité permanente.

@@ -2,21 +2,37 @@
   padding: 5em
 }
 
+.titleBoxBureau {
+  background-image: url(../Assets/imageBack.jpg);
+  background-size: cover;
+  border: 4px teal double;
+  padding: 5em;
+  border-radius: 4em;
+  margin-bottom: 4em;
+}
+
 .titleBureau {
-  color: orangered;
-  font-size: 40px;
+  color: white;
+  font-size: 50px;
   text-align: center;
+  -webkit-text-stroke: 2px;
+  -webkit-text-stroke-color: teal;
+  margin-bottom: 1em
 }
 
 .subLineBureau {
   font-size: 25px;
-  color: orange;
+  color: teal;
   text-align: center;
+  margin-bottom: 2em;
+  -webkit-text-stroke: 1px;
+  -webkit-text-stroke-color: black;
 }
 
 .subTitleBureau {
-  color: yellow;
-  font-size: 20px;
+  color: teal;
+  font-size: 30px;
+  text-align: center;
 }
 
 .boxBureau {
@@ -26,21 +42,39 @@
 
 .displayBureau {
   display: flex;
-  font-size: 15px
+  font-size: 15px;
+  border: 6px teal double;
+  margin: auto;
+  margin-bottom: 4em;
+  padding: 5em;
+  overflow: auto;
+  max-height: 450px;
+}
+
+.bureauImg {
+  margin-bottom: 4em;
+  margin-top: 2em;
+  width: 100%;
 }
 
 .marginBureau {
   margin-right: 0;
   margin-left: auto;
-  text-align: right;
+  margin-bottom: 2em
 }
 
-p {
-  font-size: 15px
+.pBureau {
+  font-size: 25px;
+  text-align: center;
+  color: black;
+  border: white 2px solid;
+  border-radius: 2em;
+  padding: 0.5em
 }
 
 .Conseil {
   font-size: 100px;
   opacity: 0.2;
   text-align: center;
+  text-shadow: 1px 1px 2px red, 0 0 1em blue, 0 0 0.2em blue;
 }

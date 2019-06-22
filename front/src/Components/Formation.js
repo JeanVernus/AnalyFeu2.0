@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import { LightSpeed, Fade, Bounce } from 'react-reveal';
 import '../CSS/Formation.css'
 
 class Formation extends Component {
@@ -12,11 +13,15 @@ class Formation extends Component {
     return (
       <div className="paddingFormationGlobal">
         <br />
-        <h1 className="titleFormation">Formations</h1><span><h3 className="subLineFormation"> incendie - secourisme</h3></span>
-        <p><br />
-          Parce-que la sécurité s'apprend toute entreprise ne doit pas subir, comme une fatalité, les risques inhérents a son activité.
-          C'est pourquoi notre département de formation a pour vocation de vous apporter des compétences pour prévenir ou faire face efficacement à une situation d'urgence.
-        </p>
+        <Bounce top cascade>
+          <div className="titleBoxFormation"><br /><br />
+            <h1 className="titleFormation">Formations</h1><span><Bounce top ><h3 className="subLineFormation"> incendie - secourisme</h3></Bounce></span><br /><br /><br /><br />
+            <p className="pFormation">
+              Parce-que la sécurité s'apprend toute entreprise ne doit pas subir, comme une fatalité, les risques inhérents a son activité.
+              C'est pourquoi notre département de formation a pour vocation de vous apporter des compétences pour prévenir ou faire face efficacement à une situation d'urgence.
+            </p><br /><br />
+          </div>
+        </Bounce>
         <h3 className="subLineFormation">Nous vous proposons pour votre sécurité ....</h3>
         <div className="displayFormation">
           <div className="marginFormation">
