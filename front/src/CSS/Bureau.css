@@ -40,21 +40,36 @@
   padding-right: 3em;
 }
 
-.displayBureau {
+.displayBureau1 {
   display: flex;
   font-size: 15px;
   border: 6px teal double;
   margin: auto;
   margin-bottom: 4em;
-  padding: 5em;
+  padding: 3em;
   overflow: auto;
-  max-height: 450px;
+  max-height: 400px;
 }
 
-.bureauImg {
+.displayBureau2 {
+  display: flex;
+  font-size: 15px;
+  border: 6px teal double;
+  margin: auto;
   margin-bottom: 4em;
-  margin-top: 2em;
-  width: 100%;
+  padding: 3em;
+  padding-left: 10em;
+  padding-right: 8em;
+  overflow: auto;
+  max-height: 400px;
+}
+
+.bureauImg1 {
+  margin-left: 25%
+}
+
+.bureauImg2 {
+  margin-left: 30%
 }
 
 .marginBureau {

@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { LightSpeed, Fade, Bounce } from 'react-reveal';
+import { LightSpeed, Fade, Bounce, Zoom } from 'react-reveal';
 import Logo1 from '../Assets/logoIncendie1.jpg';
 import Logo2 from '../Assets/logoIncendie2.jpg';
 import Logo3 from '../Assets/logoIncendie3.png';
@@ -27,15 +27,15 @@ class BureauSSI extends Component {
               Les analyses, les solutions et propositions qui découlent de nos études présentent pour nos cpents une forte valeur ajoutée.
               Les textes réglementaires y sont integrés de façon réapste et raisonnable, le niveau de sécurité recherché est atteint, vos intérêts sont défendus et le budget est respecté.
         </p>
-          </div>
+          </div><br /><br />
         </Bounce>
         <div className="boxBureau">
-          <h1 className="titlePrez" >----------------ANALYFEU: Nos mission et nos compétences----------------</h1><br /><br /><br />
+          <h1 className="titlePrez" >----------------ANALYFEU: Nos mission et nos compétences----------------</h1><br /><br /><br /><br />
           <Bounce left>
-            <div className="displayBureau">
+            <div className="displayBureau1">
               <ul>
                 <h3 className="subTitleBureau">Nos missions</h3>
-                <Fade><img className="bureauImg" src={Logo1} alt="" height="250px" /></Fade>
+                <Fade><img className="bureauImg1"src={Logo1} alt="" height="250px" /></Fade>
                 <LightSpeed left>
                   <h5>Audit/conseil</h5>
                   <h5>Assistance maître d’ouvrages</h5>
@@ -48,21 +48,21 @@ class BureauSSI extends Component {
               <div className="marginBureau">
                 <ul>
                   <h3 className="subTitleBureau">Nos compétences</h3>
-                  <Fade><img className="bureauImg" src={Logo2} alt="" height="250px" /></Fade>
+                  <Fade><img className="bureauImg2" src={Logo2} alt="" height="250px" /><br /><br /><br /></Fade>
                   <LightSpeed right>
                     <h5>Des experts préventionnistes, issus des corps officiels de secours</h5>
                     <h5>Certifiés et diplômés en prévention, agrées CNPP, coordinateurs SSI</h5>
                   </LightSpeed>
                 </ul>
               </div>
-            </div>
+            </div><br /><br /><br />
           </Bounce>
-          <h1 className="titlePrez" >--------------ANALYFEU: Nos garanties et nos savoir-faires--------------</h1><br /><br /><br />
+          <h1 className="titlePrez" >--------------ANALYFEU: Nos garanties et nos savoir-faires--------------</h1><br /><br /><br /><br /><br />
           <Bounce right>
-            <div className="displayBureau">
+            <div className="displayBureau2">
               <ul>
                 <h3 className="subTitleBureau">Nos garanties</h3>
-                <Fade ><img className="bureauImg" src={Logo3} alt="" height="250px" /></Fade>
+                <Fade ><img src={Logo3} alt="" height="250px" /></Fade>
                 <LightSpeed left>
                   <h5>La réactivité</h5>
                   <h5>Des réponses rapides</h5>
@@ -75,7 +75,7 @@ class BureauSSI extends Component {
               <div className="marginBureau">
                 <ul>
                   <h3 className="subTitleBureau">Nos connaissances et savoir-faire</h3>
-                  <Fade ><img className="bureauImg" src={Logo4} alt="" height="250px" /></Fade>
+                  <Fade ><img className="bureauImg2" src={Logo4} alt="" height="250px" /><br /><br /><br /></Fade>
                   <LightSpeed right>
                     <h5>Une veille réglementaire soutenue</h5>
                     <h5>Groupes de travail avec lesacteurs de la prévention</h5>
@@ -89,7 +89,7 @@ class BureauSSI extends Component {
 
         <h5 className="subLineBureau">AnalyFeu vous offre ses compétences, son savoir-faire pour vous épauler et trouver des solutions rationnelles</h5><br /><br /><br />
 
-        <h1 className="Conseil">Conseils</h1><br /><br /><br />
+        <Zoom><h1 className="Conseil">Conseils</h1><br /><br /><br /></Zoom>
 
       </div >
 

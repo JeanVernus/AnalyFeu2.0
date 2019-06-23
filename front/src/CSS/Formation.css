@@ -20,7 +20,6 @@
   margin-bottom: 4em;
 }
 
-
 .subLineFormation {
   font-size: 25px;
   color: teal;
@@ -33,7 +32,7 @@
 .subTitleFormation {
   color: teal;
   font-size: 20px;
-  text-align: center
+  margin-left: 16%
 }
 
 .boxFormation {
@@ -48,25 +47,41 @@
 }
 
 .marginFormation {
+  padding: 2em;
   margin-right: 0;
+  margin-left: 5em;
   border: 4px teal solid;
+  max-width: 350px;
+  display: flex;
+  flex-wrap: wrap;
+  overflow: auto;
+  max-height: 330px
 }
 
 .marginFormation1 {
-  margin-right: 0;
+  padding: 2em;
+  margin-right: 5em;
   margin-left: auto;
   border: 4px teal solid;
+  max-width: 350px;
+  display: flex;
+  flex-wrap: wrap;
+  overflow: auto;
+  max-height: 330px;
 }
 
 .Formation1 {
   font-size: 100px;
   opacity: 0.2;
   text-align: center;
+  text-shadow: 1px 1px 2px red, 0 0 1em blue, 0 0 0.2em blue;
 }
+
 .Formation2 {
   font-size: 50px;
   opacity: 0.2;
   text-align: center;
+  text-shadow: 1px 1px 2px red, 0 0 1em blue, 0 0 0.2em blue;
 }
 
 .pFormation {
@@ -76,4 +91,13 @@
   border: white 2px solid;
   border-radius: 2em;
   padding: 0.5em
+}
+
+.displayImgForm {
+  margin: auto
+}
+
+.displayImgFormCenter {
+  margin-left: auto;
+  margin-top: 15em
 }

@@ -1,18 +1,24 @@
 .titleContact {
-  font-size: 2em;
   color: white;
-  -webkit-text-stroke: 0.5px;
-  -webkit-text-stroke-color: red;
+  font-size: 50px;
+  text-align: center;
+  -webkit-text-stroke: 2px;
+  -webkit-text-stroke-color: teal;
+  margin-bottom: 1em
 }
 
 .form {
   color: white;
   -webkit-text-stroke: 0.5px;
-  -webkit-text-stroke-color: red;
+  -webkit-text-stroke-color: teal;
+  background-color : teal;
+  border: 4px black solid;
+  padding: 2em
 }
 
 .paraContact {
-  text-decoration: underline black;
+  -webkit-text-stroke: 1px;
+  -webkit-text-stroke-color: teal
 }
 
 .paddingBox {
@@ -21,16 +27,23 @@
 }
 
 .boxReference {
-  display: flex;
+  margin: auto
 }
 
 .marginBox {
+  border:4px teal solid;
+  border-radius: 5em;  
+  background-image:url(../Assets/backContact.jpg);
+  background-size: cover;
   margin-left: 0;
   margin-right: auto;
+  text-align: center;
+  padding: 10em
 }
 
 .Contact {
   font-size: 100px;
   opacity: 0.2;
   text-align: center;
+  text-shadow: 1px 1px 2px teal, 0 0 1em blue, 0 0 0.2em blue;
 }

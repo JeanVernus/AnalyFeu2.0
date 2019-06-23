@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
-import { Form, Button, Segment } from 'semantic-ui-react';
+import { Form, Button } from 'semantic-ui-react';
+import { Bounce, Zoom, LightSpeed } from 'react-reveal';
 import Axios from 'axios';
 import Noty from 'noty';
 import '../CSS/Contact.css';
@@ -69,36 +70,38 @@ class ContactMe extends Component {
     return (
       <div className="paddingBox">
         <div className="boxReference">
-          <div className="marginBox">
-            <h1 className="titleContact" >Références clients</h1>
-            <h4 className="paraContact">
-              Notre company, pour ce qui concerne son Centre de Formation ou son bureau
-            d’études<h4></h4>en prévention incendie, est au service de clients de relastName.
-                  Ils nous font confiance :
-        </h4>
-            <li>Hôpital militaire inter armée de Laveran (Marseille)</li>
-            <li>Hôpital San Salvadour (APHP) (Hyères)</li>
-            <li>Universités de Provence & université Paul Cézanne</li>
-            <ul>
-              <li>- Faculté Saint Jérôme - Marseille</li>
-              <li>- Faculté Saint Charles - Marseille</li>
-              <li>- Site d’Unimeca et Polytec - Château Gombert</li>
-              <li>- Faculté de Lettres Schuman - Aix-en-Provence</li>
-              <li>- Faculté de Droit - Marseille</li>
-              <li>- Faculté de Droit d’Aix-en-Provence</li>
-              <li>- IUT de Saint Jérôme</li>
-              <li>- Institut d’Administration d’Entreprises - Puyricard</li>
-              <li>- Espace Poncet - Aix-en-Provence</li>
-              <li>- Et d’autres sites…….</li>
-            </ul>
-            <li>Université pierre Mendes France (IUT 2 Grenoble)</li>
-            <li>Université d’Avignon et Pays de Vaucluse (Faculté St Marthe)</li>
-            <li>company AMO</li>
-          </div>
-          <div className="boxContact">
-            <h1 className="titleContact" >Me contacter</h1><br />
+          <Bounce top cascade>
+            <div className="marginBox">
+              <h1 className="titleContact" >Référencements</h1>
+              <h2 className="paraContact">
+                Notre company, pour ce qui concerne son Centre de Formation ou son bureau
+            d’études<h4></h4>en prévention incendie, est au service de cpents de relastName.
+                                  Ils nous font confiance :
+        </h2><br /><br />
+              <p>Hôpital miptaire inter armée de Laveran (Marseille)</p>
+              <p>Hôpital San Salvadour (APHP) (Hyères)</p>
+              <p>Universités de Provence & université Paul Cézanne</p>
+              <ul>
+                <p>- Faculté Saint Jérôme - Marseille</p>
+                <p>- Faculté Saint Charles - Marseille</p>
+                <p>- Site d’Unimeca et Polytec - Château Gombert</p>
+                <p>- Faculté de Lettres Schuman - Aix-en-Provence</p>
+                <p>- Faculté de Droit - Marseille</p>
+                <p>- Faculté de Droit d’Aix-en-Provence</p>
+                <p>- IUT de Saint Jérôme</p>
+                <p>- Institut d’Administration d’Entreprises - Puyricard</p>
+                <p>- Espace Poncet - Aix-en-Provence</p>
+                <p>- Et d’autres sites…….</p>
+              </ul>
+              <p>Université pierre Mendes France (IUT 2 Grenoble)</p>
+              <p>Université d’Avignon et Pays de Vaucluse (Faculté St Marthe)</p>
+              <p>company AMO</p>
+            </div>
+          </Bounce>
+          <div className="boxContact"><br /><br />
+            <LightSpeed left> <h1 className="titleContact" >Me contacter</h1><br /></LightSpeed>
             <div>
-              <Segment className="BorerForm" inverted>
+              <LightSpeed rigth>
                 <Form className="form" inverted onSubmit={this.sendForm}>
                   <Form.Group widths='equal'>
                     <Form.Input name="firstName" placeholder='Prénom' onChange={event => this.handleChange(event, "firstName")} />
@@ -112,12 +115,12 @@ class ContactMe extends Component {
                   <Form.Input name="subject" placeholder='Sujet' onChange={event => this.handleChange(event, "subject")} />
                   <Form.TextArea label='Exprimez vous' name="text" onChange={event => this.handleChange(event, "text")} />
                   <Button type='submit'>Soumettre</Button>
-                </Form>
-              </Segment><br /><br /><br /><br />
+                </Form><br /><br /><br /><br />
+              </LightSpeed>
             </div>
           </div>
         </div>
-        <h1 className="Contact">Contact</h1>
+        <Zoom><h1 className="Contact">Contact</h1></Zoom>
       </div>
     );
   }

@@ -25,7 +25,7 @@ class Caroussel extends Component {
     const { image1, image2, image3, image4, image5, image6 } = this.state;
     
     const properties = {
-      duration: 5000,
+      duration: 2500,
       transitionDuration: 500,
       infinite: true,
       indicators: true,
