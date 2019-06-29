@@ -48,10 +48,10 @@ figcaption {
   color: white;
   -webkit-text-stroke: 1px;
   -webkit-text-stroke-color: teal;
-  opacity: 0
+  opacity: 1
 }
 
 figcaption:hover {
-  opacity: 1;
+  opacity: 0;
 
 }

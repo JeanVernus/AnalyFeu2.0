@@ -71,10 +71,8 @@ class Formation extends Component {
           </LightSpeed>
         </div><br /><br /><br />
         <h6 className="subLineFormation"> (incendie - hygiène sécurité - secourisme)</h6>
-        <a href="./catalogue"><h3>>> Télécharger le catalogue de formation </h3></a>
-
+        <a href="./catalogue"><h3 className="subLineFormation"> Télécharger le catalogue de formation </h3></a>
         <Zoom><h1 className="Formation1">Formations</h1></Zoom><span><Zoom><h3 className="Formation2"> incendie - secourisme</h3></Zoom></span><br /><br />
-
       </div>
     );
   }

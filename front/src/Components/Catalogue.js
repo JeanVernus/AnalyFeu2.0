@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import { Zoom, Fade } from 'react-reveal';
 // import { Document, Page } from "react-pdf";
 
 class Catalogue extends Component {
@@ -35,7 +36,7 @@ class Catalogue extends Component {
         <p>
           Page {pageNumber} of {numPages}
         </p> */}
-        <div className="notFound"><img  src="https://i.ytimg.com/vi/GY8PkikQ8ZE/maxresdefault.jpg" alt="" width="1000px" height="550px"/></div>
+        <div className="notFound"><Zoom><Fade><img  src="https://i.ytimg.com/vi/GY8PkikQ8ZE/maxresdefault.jpg" alt="" width="1000px" height="550px"/></Fade></Zoom></div>
       </div>
     );
   }
