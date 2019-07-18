@@ -29,6 +29,8 @@ Un accueil avec un caroussel  et une présentation rapide puis deux autre pages 
 
 1. #### Installer npm et ces dépendences dans le /Front et /Back
       . npm install
+1. #### installer nodemon en global
+        npm i nodemon -g
 1. #### Lancer le server côté back
       . nodemon index.js
 1. #### Lancer le programme côté front
